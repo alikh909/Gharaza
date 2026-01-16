@@ -149,6 +149,7 @@
 				AD5C6FB82F1851B400ECC3BD /* Sources */,
 				AD5C6FB92F1851B400ECC3BD /* Frameworks */,
 				AD5C6FBA2F1851B400ECC3BD /* Resources */,
+				AD5C70272F19CAFC00ECC3BD /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -264,6 +265,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD5C70272F19CAFC00ECC3BD /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$PROJECT_DIR\"\nmake\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD5C6FB82F1851B400ECC3BD /* Sources */ = {
