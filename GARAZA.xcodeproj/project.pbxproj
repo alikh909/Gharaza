@@ -14,6 +14,10 @@
 		AD5C6FD12F1851B500ECC3BD /* GARAZATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FD02F1851B500ECC3BD /* GARAZATests.swift */; };
 		AD5C6FDB2F1851B500ECC3BD /* GARAZAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FDA2F1851B500ECC3BD /* GARAZAUITests.swift */; };
 		AD5C6FDD2F1851B500ECC3BD /* GARAZAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FDC2F1851B500ECC3BD /* GARAZAUITestsLaunchTests.swift */; };
+		AD5C6FEA2F18523200ECC3BD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FE92F18523200ECC3BD /* File.swift */; };
+		AD5C6FEC2F193CD300ECC3BD /* Splashscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FEB2F193CD300ECC3BD /* Splashscreen.swift */; };
+		AD5C6FEE2F193E1100ECC3BD /* Gharaza.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C6FED2F193E1100ECC3BD /* Gharaza.swift */; };
+		AD5C6FF02F193F3F00ECC3BD /* hall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD5C6FEF2F193F3F00ECC3BD /* hall.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		AD5C6FD62F1851B500ECC3BD /* GARAZAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GARAZAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5C6FDA2F1851B500ECC3BD /* GARAZAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GARAZAUITests.swift; sourceTree = "<group>"; };
 		AD5C6FDC2F1851B500ECC3BD /* GARAZAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GARAZAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD5C6FE92F18523200ECC3BD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		AD5C6FEB2F193CD300ECC3BD /* Splashscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splashscreen.swift; sourceTree = "<group>"; };
+		AD5C6FED2F193E1100ECC3BD /* Gharaza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gharaza.swift; sourceTree = "<group>"; };
+		AD5C6FEF2F193F3F00ECC3BD /* hall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hall.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				AD5C6FBF2F1851B400ECC3BD /* GARAZAApp.swift */,
+				AD5C6FEB2F193CD300ECC3BD /* Splashscreen.swift */,
+				AD5C6FED2F193E1100ECC3BD /* Gharaza.swift */,
+				AD5C6FEF2F193F3F00ECC3BD /* hall.mp4 */,
 				AD5C6FC12F1851B400ECC3BD /* ContentView.swift */,
+				AD5C6FE92F18523200ECC3BD /* File.swift */,
 				AD5C6FC32F1851B500ECC3BD /* Assets.xcassets */,
 				AD5C6FC52F1851B500ECC3BD /* Preview Content */,
 			);
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5C6FC72F1851B500ECC3BD /* Preview Assets.xcassets in Resources */,
+				AD5C6FF02F193F3F00ECC3BD /* hall.mp4 in Resources */,
 				AD5C6FC42F1851B500ECC3BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5C6FEC2F193CD300ECC3BD /* Splashscreen.swift in Sources */,
+				AD5C6FEE2F193E1100ECC3BD /* Gharaza.swift in Sources */,
 				AD5C6FC22F1851B400ECC3BD /* ContentView.swift in Sources */,
+				AD5C6FEA2F18523200ECC3BD /* File.swift in Sources */,
 				AD5C6FC02F1851B400ECC3BD /* GARAZAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
