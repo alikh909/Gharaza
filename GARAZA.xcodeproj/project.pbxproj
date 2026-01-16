@@ -276,6 +276,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/GARAZA/Makefile",
 			);
 			name = "Run Script";
 			outputFileListPaths = (
@@ -284,7 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$PROJECT_DIR\"\nmake\n";
+			shellScript = "set -e\ncd \"${SRCROOT}/GARAZA\" && echo \"✅ RUN ok SCRIPT SUCCESS\" || echo \"❌ RUN SCRIPT FAILED\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
