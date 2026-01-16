@@ -67,7 +67,7 @@ struct Splashscreen: View {
             Color.black.opacity(0.35).ignoresSafeArea()
 
             VStack(spacing: 12) {
-                Text("Gharazassfdc")
+                Text("Gharaza")
                     .font(.system(size: 56, weight: .bold, design: .rounded))
                     .foregroundColor(.white)
                     .shadow(radius: 18)
