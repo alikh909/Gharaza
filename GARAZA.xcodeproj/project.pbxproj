@@ -22,6 +22,8 @@
 		AD5C70302F1B218100ECC3BD /* CLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */; };
 		AD5C70322F1B224A00ECC3BD /* OTPValidationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */; };
 		AD5C70362F1BE8EC00ECC3BD /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */; };
+		AD5C70382F1D22A600ECC3BD /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70372F1D22A600ECC3BD /* GoogleSignIn.swift */; };
+		AD5C703A2F1D22BF00ECC3BD /* AppleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70392F1D22BF00ECC3BD /* AppleSignIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLoginPage.swift; sourceTree = "<group>"; };
 		AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPValidationPage.swift; sourceTree = "<group>"; };
 		AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		AD5C70372F1D22A600ECC3BD /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		AD5C70392F1D22BF00ECC3BD /* AppleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */,
 				AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */,
 				AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */,
+				AD5C70372F1D22A600ECC3BD /* GoogleSignIn.swift */,
+				AD5C70392F1D22BF00ECC3BD /* AppleSignIn.swift */,
 			);
 			path = Authontication;
 			sourceTree = "<group>";
@@ -314,11 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5C70382F1D22A600ECC3BD /* GoogleSignIn.swift in Sources */,
 				AD5C6FEC2F193CD300ECC3BD /* Splashscreen.swift in Sources */,
 				AD5C702E2F1B1B6F00ECC3BD /* LoginView.swift in Sources */,
 				AD5C70302F1B218100ECC3BD /* CLoginPage.swift in Sources */,
 				AD5C6FEE2F193E1100ECC3BD /* Gharaza.swift in Sources */,
 				AD5C6FC22F1851B400ECC3BD /* ContentView.swift in Sources */,
+				AD5C703A2F1D22BF00ECC3BD /* AppleSignIn.swift in Sources */,
 				AD5C70322F1B224A00ECC3BD /* OTPValidationPage.swift in Sources */,
 				AD5C6FEA2F18523200ECC3BD /* File.swift in Sources */,
 				AD5C70362F1BE8EC00ECC3BD /* SignUp.swift in Sources */,
