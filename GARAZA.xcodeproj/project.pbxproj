@@ -20,7 +20,8 @@
 		AD5C6FF02F193F3F00ECC3BD /* hall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD5C6FEF2F193F3F00ECC3BD /* hall.mp4 */; };
 		AD5C702E2F1B1B6F00ECC3BD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C702D2F1B1B6F00ECC3BD /* LoginView.swift */; };
 		AD5C70302F1B218100ECC3BD /* CLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */; };
-		AD5C70322F1B224A00ECC3BD /* ValidationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70312F1B224A00ECC3BD /* ValidationCode.swift */; };
+		AD5C70322F1B224A00ECC3BD /* OTPValidationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */; };
+		AD5C70362F1BE8EC00ECC3BD /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,8 @@
 		AD5C6FEF2F193F3F00ECC3BD /* hall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hall.mp4; sourceTree = "<group>"; };
 		AD5C702D2F1B1B6F00ECC3BD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLoginPage.swift; sourceTree = "<group>"; };
-		AD5C70312F1B224A00ECC3BD /* ValidationCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationCode.swift; sourceTree = "<group>"; };
+		AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPValidationPage.swift; sourceTree = "<group>"; };
+		AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +153,8 @@
 			children = (
 				AD5C702D2F1B1B6F00ECC3BD /* LoginView.swift */,
 				AD5C702F2F1B218100ECC3BD /* CLoginPage.swift */,
-				AD5C70312F1B224A00ECC3BD /* ValidationCode.swift */,
+				AD5C70312F1B224A00ECC3BD /* OTPValidationPage.swift */,
+				AD5C70352F1BE8EC00ECC3BD /* SignUp.swift */,
 			);
 			path = Authontication;
 			sourceTree = "<group>";
@@ -316,8 +319,9 @@
 				AD5C70302F1B218100ECC3BD /* CLoginPage.swift in Sources */,
 				AD5C6FEE2F193E1100ECC3BD /* Gharaza.swift in Sources */,
 				AD5C6FC22F1851B400ECC3BD /* ContentView.swift in Sources */,
-				AD5C70322F1B224A00ECC3BD /* ValidationCode.swift in Sources */,
+				AD5C70322F1B224A00ECC3BD /* OTPValidationPage.swift in Sources */,
 				AD5C6FEA2F18523200ECC3BD /* File.swift in Sources */,
+				AD5C70362F1BE8EC00ECC3BD /* SignUp.swift in Sources */,
 				AD5C6FC02F1851B400ECC3BD /* GARAZAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

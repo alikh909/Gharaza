@@ -90,7 +90,7 @@ struct Splashscreen: View {
             }
         }
         .fullScreenCover(isPresented: $goNext) {
-            ContentView()   // ✅ THIS IS THE MAPPING
+            LoginView()   // ✅ THIS IS THE MAPPING
         }
     }
 }
